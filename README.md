@@ -13,7 +13,7 @@ mkdir build
 cd build
 ```
 
-Once you are inside of the build directory, you can run the following command to build all of th executables for the project:
+Once you are inside of the build directory, you can run the following command to build all of the executables for the project:
 
 ```bash
 cmake .. && make
