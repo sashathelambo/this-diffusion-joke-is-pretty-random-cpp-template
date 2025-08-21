@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#include "src/random_walk.hpp"
+#include "random_walk.hpp"
 
 int main() {
     std::cout << "One-Dimensional Random Walk Simulation" << std::endl;

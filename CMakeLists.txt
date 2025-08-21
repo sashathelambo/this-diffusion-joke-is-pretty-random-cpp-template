@@ -19,6 +19,7 @@ FetchContent_MakeAvailable(Catch2)
 add_executable(factorial_test tests/factorial_test.cpp src/factorial.cpp)
 add_executable(random_walk_test tests/random_walk_test.cpp src/random_walk.cpp)
 add_executable(main main.cpp src/random_walk.cpp)
+target_include_directories(main PRIVATE src)
 
 target_link_libraries(factorial_test PRIVATE Catch2::Catch2WithMain)
 target_link_libraries(random_walk_test PRIVATE Catch2::Catch2WithMain)
